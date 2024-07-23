@@ -1,0 +1,65 @@
+[a11y/applications]
+screen-keyboard-enabled=true
+
+[background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/linuxmint-victoria/mmiyagi_japan.jpg'
+primary-color='#000000000000'
+
+[background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-victoria.xml'
+
+[interface]
+clock-show-date=true
+clock-show-seconds=false
+clock-use-24h=false
+cursor-blink-time=1200
+cursor-size=27
+cursor-theme='Yaru'
+gtk-theme='Mint-Y-Dark-Grey'
+icon-theme='Mint-Y-Sand'
+toolkit-accessibility=true
+
+[keybindings]
+custom-list=['__dummy__']
+magnifier-zoom-in=['<Alt>equal']
+magnifier-zoom-out=['<Alt>minus']
+
+[keybindings/media-keys]
+help=@as []
+home=['XF86Explorer']
+screensaver=['<Alt>1', 'XF86ScreenSaver']
+screenshot=@as []
+search=@as []
+terminal=['<Alt>t', '<Alt>Return']
+www=['<Alt>8']
+
+[keybindings/wm]
+activate-window-menu=@as []
+close=['<Alt>comma']
+lower=@as []
+maximize=@as []
+minimize=['<Alt>slash']
+panel-run-dialog=['<Alt>F2']
+push-tile-left=['<Alt>y']
+push-tile-right=['<Alt>p']
+show-desktop=['<Super>d', '<Alt>7']
+toggle-maximized=['<Alt>w']
+
+[peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[peripherals/mouse]
+double-click=400
+drag-threshold=8
+speed=0.0
+
+[peripherals/touchpad]
+speed=0.74369747899159666
+
+[sound]
+event-sounds=false
+maximum-volume=150
+volume-sound-enabled=false
