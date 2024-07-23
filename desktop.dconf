@@ -1,5 +1,5 @@
 [a11y/applications]
-screen-keyboard-enabled=true
+screen-keyboard-enabled=false
 
 [background]
 picture-options='zoom'
